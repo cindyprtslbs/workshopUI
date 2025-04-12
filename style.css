@@ -268,12 +268,24 @@ header {
     justify-content: center;
 }
 
+.bg-image {
+  position: absolute;
+  width: 120%;
+  max-width: 500px;
+  height: auto;
+  top: -50px;
+  left: 60%;
+  transform: translateX(-10%); 
+  z-index: 0;
+}
+
 .front-image {
     width: 100%;
     max-width: 400px;
     height: auto;
     display: block;
     position: relative;
+    z-index: 1;
 }
 
 .cta-btn {
@@ -354,6 +366,7 @@ header {
     padding: 60px 20px;
     position: relative;
     min-height: 50vh;
+    z-index: -1; 
 }
 
 .publication-section h2 {
