@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exact Landing Page Replica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">ÉlanEats</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav id="nav">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Categories">Categories</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#WhyUs">Why Us</a></li>
+            <li><a href="#testimonials">Our Story</a></li>
+            <li><a href="#contact" >Contact</a></li>
+          </ul>
+            <button class="animated-button">
+                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+                </svg>
+                <a href="#reservation" class="text">Book a Table</a>
+                <span class="circle"></span>
+                <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero" id="home">
+            <div class="content">
+                <h1>Enjoy Your Healthy Delicious Food</h1>
+                <p>We offer a variety of nutritious menu options designed to delight your taste buds while supporting your healthy lifestyle.</p>
+                <a href="#menu" class="cta-btn">Check Our Food</a>
+            </div>
+            <div class="image-placeholder">
+                <img src="image/image1.png" alt="Healthy Food" class="front-image">
+            </div>
+        </section>
+
+        <section class="publication-section" id="Categories">
+            <h2>Explore Our Food Categories</h2>
+            <p>Indulge in our thoughtfully prepared selections from exquisite starters to satisfying mains all made with the finest ingredients.</p>
+            <div class="publication-icons">
+                <div><i class="fas fa-utensils"></i><span>Appetizers</span></div>
+                <div><i class="fas fa-drumstick-bite"></i><span>Main Course</span></div>
+                <div><i class="fas fa-ice-cream"></i><span>Desserts</span></div>
+                <div><i class="fas fa-coffee"></i><span>Beverages</span></div>
+                <div><i class="fas fa-star"></i><span>Specials</span></div>
+            </div>            
+        </section>        
+
+        <section class="feature-section" id="WhyUs">
+            <div class="feature">
+                <p class="feature-title">Where Quality Meets Flavor</p>
+                <p class="feature-description">In our kitchen, quality isn’t just a standard it’s the heart of every dish we create. We carefully source the finest ingredients and craft each meal with passion and precision to deliver flavors that not only satisfy, but leave a lasting impression with every bite.</p>
+                <ul class="feature-list">
+                    <li>Fresh, locally-sourced ingredients</li>
+                    <li>Crafted by passionate chefs</li>
+                    <li>Flavors that tell a story in every bite</li>
+                </ul>
+            </div>
+            <div class="image-part">
+                <img src="image/image3.png" alt="Abstract Design">
+            </div>
+        </section>
+
+        <section class="feature-section2">
+            <div class="feature-part dark">
+                <div class="image2">
+                    <img src="image/1.png" alt="Feature Image">
+                </div>
+            </div>
+            <div class="feature-part light">
+                <div class="feature2">
+                    <h2 class="feature-title2">Flavors That Inspire</h2>
+                    <p class="feature-description2">From fresh local ingredients to elegant plating, every dish we serve is crafted to delight the palate and warm the heart.</p>
+                    <button class="feature-button" data-target="menu-section">View Menu</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="value-section" id="OurStory">
+            <div class="value-content">
+                <h2>Why Our Guests Love Us</h2>
+                <p>From authentic flavors to warm service, every visit to our restaurant is a delightful culinary journey. Enjoy a cozy atmosphere and dishes that touch your soul.</p>
+                <div class="testimonial">he flavors were amazing! Cozy ambiance and super friendly staff. Definitely coming back again!</div>
+                <div class="author">
+                    <span class="author-icon"></span> Rina M., Food Blogger
+                </div>
+            </div>
+            <div class="value-image">
+                <img src="image/image8.png" alt="Dish 1" class="white-box-img" />
+                <img src="image/image10.png" alt="Dish 2" class="black-box-img" />
+            </div>
+        </section>
+
+        <section class="testimonial-section" id="testimonials">
+            <div class="testimonial-container">
+                <p class="testimonial-quote">“I finally found a healthy restaurant that actually tastes amazing! The variety is great and the portions are just right.”</p>
+                <img src="image/image7.png" alt="Customer Photo" class="testimonial-icon" />
+                <p class="testimonial-author">Ayu Pratiwi, Loyal Customer</p>
+            </div>
+        </section>
+
+        <section id="reservation" class="reservation-section" style="padding: 60px 0; background-color: #f9f9f9;">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; max-width: 1200px; margin: auto;">
+              
+              <!-- Gambar -->
+              <div style="flex: 1 1 400px;">
+                <img src="image/image6.png" alt="Table Setting" style="width: 100%; border-radius: 3px; object-fit: cover;">
+              </div>
+              
+              <!-- Form -->
+              <div style="flex: 1 1 600px; background-color: #f4f4f4; padding: 30px; border-radius: 3px;">
+                <form>
+                  <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+                    <input type="text" placeholder="Your Name" style="flex: 1 1 30%; padding: 12px;">
+                    <input type="email" placeholder="Your Email" style="flex: 1 1 30%; padding: 12px;">
+                    <input type="tel" placeholder="Your Phone" style="flex: 1 1 30%; padding: 12px;">
+                  </div>
+          
+                  <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 15px;">
+                    <input type="date" style="flex: 1 1 30%; padding: 12px;">
+                    <input type="time" style="flex: 1 1 30%; padding: 12px;">
+                    <input type="number" placeholder="# of people" style="flex: 1 1 30%; padding: 12px;">
+                  </div>
+          
+                  <textarea placeholder="Message" rows="4" style="width: 100%; margin-top: 15px; padding: 12px;"></textarea>
+                  <button class="book-btn">Book a Table</button>
+                </form>
+              </div>
+            </div>
+          </section>
+          
+
+          <section class="section" id="menu">
+            <h2>Check Our Menu</h2>
+            <p>Discover our tasty and healthy selection</p>
+            <div class="images-container">
+                <div class="image-item">
+                    <img src="image/dua.png" alt="Magnam Tiste">
+                    <div>Eos Luibusdam</div>
+                    <h5>Savor the delicious taste of this dish.</h5>
+                    <p class="price">$12.95</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/tiga.png" alt="Magnam Tiste">
+                    <div>Eos Luibusdam</div>
+                    <h5>Savor the delicious taste of this dish.</h5>
+                    <p class="price">$12.95</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/empat.png" alt="Magnam Tiste">
+                    <div>Laboriosam Direva</div>
+                    <h5>Savor the delicious taste of this dish.</h5>
+                    <p class="price">$9.95</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/satu.png" alt="Magnam Tiste">
+                    <div>Aut Luia</div>
+                    <h5>Savor the delicious taste of this dish.</h5>
+                    <p class="price">$12.95</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/1.png" alt="Magnam Tiste">
+                    <div>Eos Luibusdam</div>
+                    <h5>Savor the delicious taste of this dish.</h5>
+                    <p class="price">$12.95</p>
+                </div>
+                <div class="image-item">
+                    <img src="image/image1.png" alt="Magnam Tiste">
+                    <div>Magnam Tiste</div>
+                    <h5>Savor the delicious taste of this dish.</h5>
+                    <p class="price">$9.95</p>
+                </div>
+            </div>
+          </section>
+          
+
+
+          <footer class="footer-custom" id="contact">
+            <div class="footer-top">
+              <div class="footer-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Address</h4>
+                  <p>Jl. Mojo 2 No.11<br>Surabaya, SBY 535022</p>
+                </div>
+              </div>
+          
+              <div class="footer-box">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <h4>Contact</h4>
+                  <p><strong>Phone:</strong> +62 812 6577 8900<br>
+                     <strong>Email:</strong> cindy@gmail.com</p>
+                </div>
+              </div>
+          
+              <div class="footer-box">
+                <i class="fas fa-clock"></i>
+                <div>
+                  <h4>Opening Hours</h4>
+                  <p><strong>Mon-Sat:</strong> 11AM - 23PM<br>
+                     <strong>Sunday:</strong> Closed</p>
+                </div>
+              </div>
+          
+              <div class="footer-box social-box">
+                <h4>Follow Us</h4>
+                <div class="social-icons clean">
+                  <a href="#"><i class="fab fa-x-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="footer-bottom">
+              <p>© Copyright <strong>ÉlanEats</strong> All Rights Reserved</p>
+              <p>Designed by <span>Cindy</span> Distributed by <span>D4 Teknik Informatika</span></p>
+            </div>
+          </footer>
+          
+          
+        
+    </main>
+</body>
+</html>
+
+
+<script>
+    function toggleMenu() {
+      document.getElementById('nav').classList.toggle('active');
+    }
+  </script>
+  <script>
+    document.getElementById("menu-section").addEventListener("click", function () {
+      document.getElementById("menu").scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
+  
+    
