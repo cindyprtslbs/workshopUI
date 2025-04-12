@@ -87,7 +87,7 @@
                 <div class="feature2">
                     <h2 class="feature-title2">Flavors That Inspire</h2>
                     <p class="feature-description2">From fresh local ingredients to elegant plating, every dish we serve is crafted to delight the palate and warm the heart.</p>
-                    <button class="feature-button" data-target="menu-section">View Menu</button>
+                    <button class="feature-button" id="menu-section">View Menu</button>
                 </div>
             </div>
         </section>
@@ -239,19 +239,19 @@
           
         
     </main>
-</body>
-</html>
 
-
-<script>
-    function toggleMenu() {
-      document.getElementById('nav').classList.toggle('active');
-    }
-  </script>
-  <script>
-    document.getElementById("menu-section").addEventListener("click", function () {
+    <script>
+      function toggleMenu() {
+        document.getElementById('nav').classList.toggle('active');
+      }
+    </script>
+   <script>
+    document.querySelector(".feature-button").addEventListener("click", function () {
       document.getElementById("menu").scrollIntoView({ behavior: "smooth" });
     });
   </script>
+  
+</body>
+</html>
   
     
