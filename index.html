@@ -6,6 +6,7 @@
     <title>ÉlanEats</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -39,7 +40,7 @@
     </header>
     
     <main>
-        <section class="hero" id="home">
+        <section class="hero" id="home" data-aos="fade-up" data-aos-duration="1000">
             <div class="content">
                 <h1>Enjoy Your Healthy Delicious Food</h1>
                 <p>We offer a variety of nutritious menu options designed to delight your taste buds while supporting your healthy lifestyle.</p>
@@ -51,7 +52,7 @@
             </div>
         </section>
 
-        <section class="publication-section" id="Categories">
+        <section class="publication-section" id="Categories" data-aos="fade-up" data-aos-duration="1000">
             <h2>Explore Our Food Categories</h2>
             <p>Indulge in our thoughtfully prepared selections from exquisite starters to satisfying mains all made with the finest ingredients.</p>
             <div class="publication-icons">
@@ -63,8 +64,8 @@
             </div>            
         </section>        
 
-        <section class="feature-section" id="WhyUs">
-            <div class="feature">
+        <section class="feature-section" id="WhyUs" data-aos="fade-up" data-aos-duration="1000">
+            <div class="feature" data-aos="fade-right" data-aos-duration="1000">
                 <p class="feature-title">Where Quality Meets Flavor</p>
                 <p class="feature-description">In our kitchen, quality isn’t just a standard it’s the heart of every dish we create. We carefully source the finest ingredients and craft each meal with passion and precision to deliver flavors that not only satisfy, but leave a lasting impression with every bite.</p>
                 <ul class="feature-list">
@@ -78,8 +79,8 @@
             </div>
         </section>
 
-        <section class="feature-section2">
-            <div class="feature-part dark">
+        <section class="feature-section2" data-aos="fade-up" data-aos-duration="1000">
+            <div class="feature-part dark" >
                 <div class="image2">
                     <img src="image/1.png" alt="Feature Image">
                 </div>
@@ -93,7 +94,7 @@
             </div>
         </section>
 
-        <section class="value-section" id="OurStory">
+        <section class="value-section" id="OurStory" data-aos="fade-up" data-aos-duration="1000">
             <div class="value-content">
                 <h2>Why Our Guests Love Us</h2>
                 <p>From authentic flavors to warm service, every visit to our restaurant is a delightful culinary journey. Enjoy a cozy atmosphere and dishes that touch your soul.</p>
@@ -108,7 +109,7 @@
             </div>
         </section>
 
-        <section class="testimonial-section" id="testimonials">
+        <section class="testimonial-section" id="testimonials" data-aos="zoom-in" data-aos-duration="1000">
             <div class="testimonial-container">
                 <p class="testimonial-quote">“I finally found a healthy restaurant that actually tastes amazing! The variety is great and the portions are just right.”</p>
                 <img src="image/image7.png" alt="Customer Photo" class="testimonial-icon" />
@@ -116,7 +117,7 @@
             </div>
         </section>
 
-        <section id="reservation" class="reservation-section" style="padding: 60px 0; background-color: #f9f9f9;">
+          <section id="reservation" class="reservation-section" style="padding: 60px 0; background-color: #f9f9f9;" data-aos="fade-up" data-aos-duration="1000">
             <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; max-width: 1200px; margin: auto;">
               
               <!-- Gambar -->
@@ -147,7 +148,7 @@
           </section>
           
 
-          <section class="section" id="menu">
+          <section class="section" id="menu" data-aos="fade-up" data-aos-duration="1000">
             <h2>Check Our Menu</h2>
             <p>Discover our tasty and healthy selection</p>
             <div class="images-container">
@@ -192,7 +193,7 @@
           
 
 
-          <footer class="footer-custom" id="contact">
+          <footer class="footer-custom" id="contact" data-aos="fade-up" data-aos-duration="1000">
             <div class="footer-top">
               <div class="footer-box">
                 <i class="fas fa-map-marker-alt"></i>
@@ -247,6 +248,10 @@
       document.getElementById("menu-section").addEventListener("click", function () {
         document.getElementById("menu").scrollIntoView({ behavior: "smooth" });
       });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 </html>
